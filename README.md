@@ -6,6 +6,26 @@ Claro, vou criar um README.md em Markdown explicando o MLOps Toolkit com os iten
 
 O MLOps Toolkit é uma coleção de ferramentas e tecnologias essenciais para a implementação eficiente de práticas de MLOps (Machine Learning Operations). Ele visa facilitar o gerenciamento e a automação de pipelines de machine learning, desde o desenvolvimento até a produção, garantindo a reproducibilidade, escalabilidade e monitoramento adequado de modelos de machine learning.
 
+| Type of Stack Component | Description                                                   |
+|-------------------------|---------------------------------------------------------------|
+| Orchestrator            | Orchestrating the runs of your pipeline                       |
+| Artifact Store          | Storage for the artifacts created by your pipelines           |
+| Container Registry      | Store for your containers                                     |
+| Step Operator           | Execution of individual steps in specialized runtime environments |
+| Model Deployer          | Services/platforms responsible for online model serving       |
+| Feature Store           | Management of your data/features                              |
+| Experiment Tracker      | Tracking your ML experiments                                  |
+| Alerter                 | Sending alerts through specified channels                      |
+| Annotator               | Labeling and annotating data                                  |
+| Data Validator          | Data and model validation                                     |
+| Image Builder           | Builds container images.                                      |
+| Model Registry          | Manage and interact with ML Models                            |
+
+
+
+
+
+
 ## Componentes Principais
 
 ### BentoML
@@ -35,3 +55,5 @@ O MLOps Toolkit é uma coleção de ferramentas e tecnologias essenciais para a 
 ## Como Usar
 
 Para começar a usar o MLOps Toolkit, siga as instruções de instalação e configuração para cada uma das ferramentas incluídas. Consulte a documentação oficial de cada ferramenta para obter mais detalhes sobre como utilizá-las em conjunto para criar e gerenciar pipelines de machine learning de ponta a ponta.
+
+![MLOps Pipeline](./img/mlops1.png)
